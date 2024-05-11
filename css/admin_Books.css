@@ -1,0 +1,70 @@
+body{
+    background: lightblue;
+ }
+
+.button{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    background: lightblue;
+    color: #fff;
+    text-align: center;
+}
+
+.button:hover{
+    background: blue;
+}
+
+.message{
+    display: block;
+    background: #E9E4E3;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+ 
+.container{
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.admin-book-form-container.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.admin-book-form-container form{
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: #E9E4E3;
+}
+
+.admin-book-form-container form h3{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.admin-book-form-container form .box{
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.2rem 1.5rem;
+    font-size: 1rem;
+    margin: .5rem 0;
+    background: #fff;
+    text-transform: none;
+}
+

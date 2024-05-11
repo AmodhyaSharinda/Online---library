@@ -1,0 +1,56 @@
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: lightblue;
+}
+
+.message{
+    display: block;
+    background: #E9E4E3;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.container form input, .container form, .container textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.container form .form-btn{
+    background: lightblue;
+    color: rgb(1, 1, 17);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form .form-btn:hover{
+    background: #1680AC;
+    color: #fff;
+}
+
+.container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+

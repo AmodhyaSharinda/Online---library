@@ -1,0 +1,61 @@
+body{
+    background: lightblue;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.books-display{
+    align-items: center;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+ }
+ 
+ .books-display .books-display-table{
+    width: 100%;
+    text-align: center;
+ }
+
+.books-display .books-display-table thead{
+    background-color: #E9E4E3;
+}
+
+.books-display .books-display-table th{
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.books-display .books-display-table td{
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-bottom: var(--border);
+}
+
+.books-display .books-display-table tr td{
+    background-color: azure;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    background: crimson;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover{
+    background: black;
+}
+
+
+
+
