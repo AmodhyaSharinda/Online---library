@@ -1,0 +1,79 @@
+body{
+    background: lightblue;
+}
+
+.message{
+    display: block;
+    background: #E9E4E3;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    background: green;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:last-child{
+    background: crimson;
+}
+
+.btn:hover{
+    background: black;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+
+.Books .box-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.Books .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.box{
+    height: 450px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Books .box-container .box img{
+    height: 12rem;
+}
+
+.Books .box-container .box h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.Books .box-container .box .category{
+    font-size: 1.5rem;
+    color: var(--black);
+}

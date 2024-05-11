@@ -1,0 +1,92 @@
+body{
+    background: lightblue;
+}
+
+.container{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.container form .row{
+    display: block;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container form .row .inputBox{
+    margin: 15px 0;
+}
+
+.container form .row .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container form .row .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .inputBox textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .inputBox input:focus{
+    border: 1px solid #000;
+}
+
+.container form .row .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .row .flex .inputBox{
+    margin-top: 5px;
+}
+
+.container form .row .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px  #000);
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: lightseagreen;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+    background-color: lightskyblue;
+}
